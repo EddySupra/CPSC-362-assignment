@@ -1,8 +1,13 @@
+#lang scheme
 (display "Hello World")
 (newline)
-(define (sum a b)
-(display "2 + 5 = ")
-(display (+ a b)))
-
-(sum 2 5)
+(display "Enter 2 Numbers")
+(newline)
+(define a (read))
+(define b (read))
+(display a)
+(display "+")
+(display b)
+(display "=")
+(display (+ a b))
 (newline)
